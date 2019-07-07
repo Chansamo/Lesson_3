@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "onCreate_Toast 基本用法", Toast.LENGTH_LONG).show();
     }
-
+//jgjhghjghj
     protected void onResume(){
         super.onResume();
         Toast.makeText(this, "onResume 事件", Toast.LENGTH_LONG).show();
